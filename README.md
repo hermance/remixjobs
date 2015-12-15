@@ -2,6 +2,26 @@
 
 > Unofficial Remixjobs API
 
+## Authors
+
+School project made by : Hermance Dornier & Melanie Journe
+
+## Routes
+
+/jobs : { get : return all jobs, post : add a job }
+
+/jobs/:job_id : { get : return the job with param id, put : update the job, delete : delete the job}
+
+/jobs/contract/:contract : { get : return jobs with param contract (CDD,CDI ect) }
+
+/jobs/category/:category : { get : return jobs with param category (Design,Developpement ect) }
+
+/jobs/where/:localisation : { get : return jobs in localisation}
+
+/jobs/limit/:value : { get : return value jobs (5,10 ect) }
+
+/jobs/more/recent' : { get : return today jobs) }
+
 ## Introduction
 
 [RemixJobs](https://remixjobs.com/) is the best French job board for the Web Industry.
